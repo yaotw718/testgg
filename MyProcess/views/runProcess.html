@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Run Process</title>
+    <link rel="stylesheet" type="text/css" href="css/base.css"/>
+    <link rel="stylesheet" type="text/css" href="css/css.css"/>
+    <link rel="stylesheet" href="css/juheCreate.css">
+    <script type="text/javascript" src="js/lib/jquery.min.js"></script>
+    <script type="text/javascript" src="js/lib/msgbox.js"></script>
+</head>
+<body class="tips_box">
+    <div id="head" style="width: 900px">
+        <div class="head_l_run"><img src="images/icom-0.png"></div>
+        <div class="icon_a">
+            <a  class="mini_a" href="javascript:;" onclick="minWindow()" ></a>
+            <a class="close_a" href="javascript:;" onclick="closeWindow()" ></a>
+        </div>
+        <span id="headtitle"></span>
+    </div>
+
+    <div class="setup_main">
+
+        <div class="menu_box" id="menu_box_num0">
+            <div class="menu_num" id="menu_num_num0"><span></span></div>
+            <div><span class="menu_title"></span></div>
+            <div><a class="next_step" id="next_step_num0" href="javascript:;"></a></div>
+        </div>
+
+        <!--打开网址内容-->
+        <div class="leixing url_box" >
+            <div class="load">
+                <iframe frameborder="0" scrolling="yes" width="890" height="480"></iframe>
+            </div>
+        </div>
+        <!--个性化工具内容-->
+        <div class="leixing tool_box" >
+            <div class="spaces_box" style="height: 470px">
+                <ul>
+                </ul>
+            </div>
+        </div>
+
+        <!--打开聚合信息内容-->
+        <div class="leixing juhe_box" >
+            <div class="load_juhe">
+
+            </div>
+        </div>
+
+    </div>
+
+    <div class="loading">
+        <div class="spinner">
+            <div class="rect1"></div>
+            <div class="rect2"></div>
+            <div class="rect3"></div>
+            <div class="rect4"></div>
+            <div class="rect5"></div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="js/runProcess.js"></script>
+</html>

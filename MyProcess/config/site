@@ -1,0 +1,11 @@
+{
+  "hostname":{
+        "http":"down.jwis.cn",
+        "https":"reg.jwis.cn",
+        "local":"bd.jwis.cn",
+        "social":"im.jwis.cn"
+    },
+	"port":{
+		"social":"3107"
+	}
+}

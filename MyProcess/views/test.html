@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+
+<div onclick="getClickIndex(e)" id="result">
+    <div>1</div>
+    <div>3</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>8</div>
+</div>
+
+<script>
+    var data=[1,3,2,3,4,8];//#result的数据来自这
+    function getClickIndex(e) {
+        var node = e.target;
+        var nodearr=node.parentNode.children
+        var index= data.indexOf.call(nodearr, node);
+        return index;
+        alert(index);
+    }
+</script>
+</body>
+</html>
