@@ -6,4 +6,5 @@
 6666
 7777
 8888
-��myprocess�����
+在myprocess里测试
+改UTF-8之后的中文
